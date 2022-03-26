@@ -1,7 +1,7 @@
 import coffeescript from 'coffeescript';
 
 import {coffee_label_patch} from '@rmw/coffee-label-patch';
-coffee_label_compile = coffee_label_patch(coffeescript);
+const coffee_label_compile = coffee_label_patch(coffeescript);
 
 import type { Transformer, Options } from '../types';
 
