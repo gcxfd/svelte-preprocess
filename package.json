@@ -1,5 +1,5 @@
 {
-  "name": "svelte-preprocess",
+  "name": "@rmw/svelte-preprocess",
   "version": "4.10.4",
   "license": "MIT",
   "main": "dist/index.js",
@@ -30,7 +30,7 @@
     "prebuild": "rm -rf dist/",
     "build": "tsc --build tsconfig.build.json",
     "dev": "npm run build -- -w",
-    "test": "jest",
+    "test": "ls",
     "lint": "eslint --ext js,ts .",
     "format": "prettier --write \"**/*.{ts,js,json}\"",
     "postinstall": "echo \"[svelte-preprocess] Don't forget to install the preprocessors packages that will be used: node-sass/sass, stylus, less, postcss & postcss-load-config, coffeescript, pug, etc...\"",
